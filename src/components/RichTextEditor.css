@@ -1,0 +1,28 @@
+.RichTextEditor {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.RichTextMenu {
+    width: 80%;
+    padding: 0.5rem;
+}
+
+.RichTextMenu > * {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.2rem;
+    gap: 0.2rem;
+}
+
+#RichTextOutput {
+    height: 300px;
+    padding: 1rem;
+    width: 80%;
+    background-color: var(--outputBackground);
+    color: var(--outputText);
+    border-radius: 8%;
+
+}

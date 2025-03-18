@@ -1,11 +1,16 @@
 import './App.css';
 import Navbar from './components/Navbar'
+import RichTextEditor from './components/RichTextEditor';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <h1>hello Jasper</h1>
+
+      <div className="main-content">
+        <RichTextEditor />
+      </div>
+      
     </div>
   );
 }
