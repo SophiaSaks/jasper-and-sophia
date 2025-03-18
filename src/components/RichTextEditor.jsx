@@ -21,6 +21,7 @@ function RichTextEditor() {
         </div>
 
         <div id="RichTextOutput" contentEditable="true">
+            Here you can write and edit your journal entry...
         </div>
 
         <div className="RichTextSave">
