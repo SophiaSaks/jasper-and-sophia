@@ -1,4 +1,12 @@
 .Navbar {
     position: sticky; 
-    background-color: #FF6BA1;
+    background-color: var(--nav-background);
+    height: 4rem;
+}
+
+.logo {
+    width: fit-content;
+    background-color: var(--nav-background);
+    padding: 0.5rem;
+    border-radius: 50%;
 }

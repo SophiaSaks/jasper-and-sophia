@@ -7,6 +7,7 @@
 :root {
   --background: linear-gradient(90deg, rgba(205,180,219,1) 3%, rgba(255,200,221,1) 50%, rgba(162,210,255,1) 100%);
   --text: #F9f9f9;
+  --nav-background: #FF6BA1;
 }
 
 .darkTheme {
