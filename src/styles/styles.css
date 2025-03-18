@@ -8,14 +8,37 @@
     color: var(--text-color);
 }
 
-.container {
+.menu__container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: var(--p-4);
+    border-radius: var(--p-4);
+    background: var(--background-color-menu);
+}
+
+.menu__item {
     display: block;
     position: relative;
-    text-align: justify;
-    word-break: break-word;
-    hyphens: auto;
-    background-color: var(--background-color-light);
+    background: var(--accent-color);
+    list-style-type: none;
+    border-radius: var(--p-4);
+    overflow: hidden;
 }
+
+.menu__label {
+    font-size: var(--text-md);
+    color: var(--text-color-light);
+}
+
+/*.container {*/
+/*    display: block;*/
+/*    position: relative;*/
+/*    text-align: justify;*/
+/*    word-break: break-word;*/
+/*    hyphens: auto;*/
+/*    background-color: var(--background-color-light);*/
+/*}*/
 
 .p-2 {
     padding: var(--p-2);
