@@ -19,3 +19,7 @@
   color: var(--text);
   text-align: center;
 }
+
+.main-content {
+  margin-top: 2rem;
+}

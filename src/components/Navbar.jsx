@@ -1,7 +1,7 @@
 import './Navbar.css'
 import logoWhite from '../assets/logo_white.png'
 import burgerWhite from '../assets/hamburger_white.png'
-import profileWhite from '../assets/hamburger_white'
+import profileWhite from '../assets/profile_white.png'
 
 function Navbar() {
   return (
