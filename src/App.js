@@ -1,5 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar'
+import RichTextEditor from './components/RichTextEditor';
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <Navbar />
 
       <div className="main-content">
-        <h1>hello Jasper</h1>
+        <RichTextEditor />
       </div>
       
     </div>
