@@ -9,3 +9,4 @@
 ### CHANGES
 
 - Added changelog.md markdown document
+- Added quick start guide
