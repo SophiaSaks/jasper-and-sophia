@@ -14,6 +14,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "start:default": "APP_THEME=default react-scripts start",
+    "start:one": "APP_THEME=one react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

@@ -12,9 +12,11 @@
 .RichTextMenu > * {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: baseline;
     padding: 0.2rem;
     gap: 0.2rem;
+    background: var(--outputBackground);
 }
 
 #RichTextOutput {
@@ -25,4 +27,15 @@
     color: var(--outputText);
     border-radius: 8%;
 
+}
+
+button {
+    border: none;
+    padding: 0.2rem;
+    background: #026f9a;
+    border-radius: 8px;
+}
+
+.buttonImg {
+    height: 1.5rem;
 }
