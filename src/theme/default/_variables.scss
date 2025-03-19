@@ -19,11 +19,13 @@
     --success-color: var(--green);
     --info-color: var(--blue);
     --warning-color: var(--peach);
-    --accent-color: var(--pink);
+    --accent-color: var(--green);
     --text-color: var(--dark-1);
     --text-color-light: var(--light-2);
     --background-color-light: var(--light-1);
-    --background-color-menu: var(--red);
+    --background-menu: var(--dark-1);
+
+    --theme-bg: blue;
 
     /* Pixel values */
     /* Absolute values */
@@ -45,4 +47,3 @@
     --text-lg: 1.5em;
     --text-xl: 2em;
 }
-
