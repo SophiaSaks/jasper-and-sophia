@@ -1,42 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --background: linear-gradient(90deg, rgba(205, 180, 219, 1) 3%, rgba(255, 200, 221, 1) 50%, rgba(162, 210, 255, 1) 100%);
+  --text: #F9f9f9;
+  --nav-background: #FF6BA1;
+  --outputBackground: #f9f9f950;
+  --outputText: #971e4b;
+}
+
+.darkTheme {
+}
+
+
+ul {
+  list-style: none;
+}
+
+
 .App {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(90deg, rgba(205, 180, 219, 1) 3%, rgba(255, 200, 221, 1) 50%, rgba(162, 210, 255, 1) 100%);
+  height: 100vh;
+  background: var(--background);
+  color: var(--text);
+  text-align: center;
 }
 
 .main-content {
-  margin-top: var(--spacing-md);
-  background: var(--main-background);
-}
-
-.text {
-  color: var(--light-1);
-}
-
-.bg {
-  background-color: var(--light-1);
-}
-
-.menu {
-  background-color: var(--background-menu);
-}
-
-.error-message {
-  color: var(--error-color);
-}
-
-.success-message {
-  color: var(--success-color);
-}
-
-.info-message {
-  color: var(--info-color);
-}
-
-.warning-message {
-  color: var(--warning-color);
-}
-
-.accent-message {
-  color: var(--accent-color);
+  margin-top: 2rem;
+  background: var(--mainBackground);
 }

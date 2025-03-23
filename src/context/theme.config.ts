@@ -4,6 +4,6 @@ export enum Theme {
 }
 
 export const THEMES = {
-    [Theme.DEFAULT]: () => import('@/theme/default.scss'),
-    [Theme.ALTERNATIVE]: () => import('@/theme/alternative.scss'),
+    [Theme.DEFAULT]: () => import('../theme/default.scss'),
+    [Theme.ALTERNATIVE]: () => import('../theme/alternative.scss'),
 };

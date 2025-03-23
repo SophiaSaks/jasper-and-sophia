@@ -30,6 +30,9 @@
       "@/components/*": [
         "src/components/*"
       ],
+      "@/context/*": [
+        "src/context/*"
+      ],
       "@/theme/*": [
         "src/theme/*"
       ],
@@ -48,6 +51,7 @@
     "src",
     "src/theme/**/*",
     "src/components/**/*",
+    "src/context/**/*",
     "src/assets/**/*",
     "src/types/**/*"
   ]

@@ -2,8 +2,8 @@ import './App.scss';
 import Navbar from './components/Navbar';
 import RichTextEditor from './components/RichTextEditor';
 import { Menu } from './components/Menu/Menu';
-import { useThemeContext } from '@/context/useThemeContext';
-import { Theme } from '@/context/theme.config';
+import { useThemeContext } from './context/useThemeContext';
+import { Theme } from './context/theme.config';
 
 function App() {
     const { themeName, setThemeName } = useThemeContext();

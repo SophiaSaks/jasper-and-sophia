@@ -6,7 +6,7 @@ import {
     useEffect,
     useState,
 } from 'react';
-import { Theme, THEMES } from '@/context/theme.config';
+import { Theme, THEMES } from './theme.config';
 
 interface ThemeContextState {
     themeName: Theme;
