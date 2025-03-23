@@ -22,25 +22,25 @@
     "baseUrl": ".",
     "paths": {
       "src/*": [
-        "./src/*"
+        "src/*"
       ],
       "@/*": [
-        "./src/*"
+        "src/*"
       ],
       "@/components/*": [
-        "./components/*"
+        "src/components/*"
       ],
       "@/theme/*": [
-        "./theme/*"
+        "src/theme/*"
       ],
       "@/styles/*": [
-        "./styles/*"
+        "src/styles/*"
       ],
       "@/assets/*": [
-        "./assets/*"
+        "src/assets/*"
       ],
       "@types/*": [
-        "./types/*"
+        "src/types/*"
       ]
     }
   },
@@ -49,6 +49,6 @@
     "src/theme/**/*",
     "src/components/**/*",
     "src/assets/**/*",
-    "src/types/**/*",
+    "src/types/**/*"
   ]
 }

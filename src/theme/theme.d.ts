@@ -1,5 +1,5 @@
-// Declare these scss modules to avoid typescript error
+// default themename modules
 declare module '*.scss' {
     const content: { [className: string]: string };
-    export = content;
+    export default content;
 }

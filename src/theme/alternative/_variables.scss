@@ -1,50 +1,77 @@
 /* Theme ONE */
-:root {
-    font-size: 16px;
+$font-size: 16px;
 
-    /* Colors */
-    --red: #ff0000;
-    --green: #00ff00;
-    --blue: #0000ff;
-    --peach: #ffcccb;
-    --pink: #ff69b4;
+/* Colors */
+$red: #ff0000;
+$green: #00ff00;
+$blue: #0000ff;
+$peach: #ffcccb;
+$pink: #ff69b4;
 
-    /* Tones */
-    --light-1: #f6f6f6;
-    --light-2: #e9e9e9;
-    --dark-1: #0a0a0a;
-    --gray-50: #f6f6f650;
+/* Tones */
+$light-1: #f6f6f6;
+$light-2: #e9e9e9;
+$dark-1: #0a0a0a;
+$gray-50: #f6f6f650;
 
-    /* Color names */
-    --error-color: var(--red);
-    --success-color: var(--green);
-    --info-color: var(--blue);
-    --warning-color: var(--peach);
-    --accent-color: var(--pink);
-    --text-color: var(--dark-1);
-    --text-color-light: var(--light-2);
-    --background-color-light: var(--light-1);
-    --background-menu: var(--green);
+/* Color names */
+$error-color: $red;
+$success-color: $green;
+$info-color: $blue;
+$warning-color: $peach;
+$accent-color: $pink;
+$text-color: $dark-1;
+$text-color-light: $light-2;
+$background-color-light: $light-1;
+$background-menu: $green;
 
-    --theme-bg: red;
+/* Pixel values */
+/* Absolute values */
+$p-2: 2px;
+$p-4: 4px;
+$p-8: 8px;
+$p-16: 16px;
+/* Relative values */
+/* Spacing & Sizing */
+$xs: 0.25rem;
+$sm: 0.5rem;
+$md: 1rem;
+$lg: 2rem;
 
-    /* Pixel values */
-    /* Absolute values */
-    --p-2: 2px;
-    --p-4: 4px;
-    --p-8: 8px;
-    --p-16: 16px;
-    /* Relative values */
-    /* Spacing & Sizing */
-    --xs: 0.25rem;
-    --sm: 0.5rem;
-    --md: 1rem;
-    --lg: 2rem;
+/* Text sizes */
+$text-xs: 0.75em;
+$text-sm: 0.875em;
+$text-md: 1em;
+$text-lg: 1.5em;
+$text-xl: 2em;
 
-    /* Text sizes */
-    --text-xs: 0.75em;
-    --text-sm: 0.875em;
-    --text-md: 1em;
-    --text-lg: 1.5em;
-    --text-xl: 2em;
+%vars {
+  --red: #{$red};
+  --green: #{$green};
+  --blue: #{$blue};
+  --peach: #{$peach};
+  --pink: #{$pink};
+
+  --light-1: #{$light-1};
+  --light-2: #{$light-2};
+  --dark-1: #{$dark-1};
+  --gray-50: #{$gray-50};
+
+  --p-2: #{$p-2};
+  --p-4: #{$p-4};
+  --p-8: #{$p-8};
+  --p-16: #{$p-16};
+
+  --spacing-xs: #{$xs};
+  --spacing-sm: #{$sm};
+  --spacing-md: #{$md};
+  --spacing-lg: #{$lg};
+
+  --text-xs: #{$text-xs};
+  --text-sm: #{$text-sm};
+  --text-md: #{$text-md};
+  --text-lg: #{$text-lg};
+  --text-xl: #{$text-xl};
+
+  --main-background: #{$light-1};
 }
