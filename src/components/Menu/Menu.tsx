@@ -1,5 +1,5 @@
-import { Theme } from '@/types/theme';
 import './Menu.scss';
+import { Theme } from '@/context/theme.config';
 
 interface MenuProps {
     items: Theme[];
