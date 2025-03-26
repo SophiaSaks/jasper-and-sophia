@@ -1,0 +1,29 @@
+.menu__container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  padding: var(--p-4);
+  border-radius: var(--p-4);
+  background: var(--pink);
+}
+
+.menu__item {
+  display: block;
+  position: relative;
+  background: var(--blue);
+  margin-bottom: var(--p-2);
+  list-style-type: none;
+  border-radius: var(--p-4);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.menu__label {
+  font-size: var(--text-md);
+  color: var(--light-1);
+
+  &:hover {
+    color: var(--light-2);
+  }
+}

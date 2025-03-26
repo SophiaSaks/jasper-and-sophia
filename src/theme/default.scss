@@ -1,0 +1,6 @@
+@use 'default/variables';
+
+.default-theme {
+  @extend %vars;
+}
+
