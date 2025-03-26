@@ -1,11 +1,13 @@
 .menu__container {
-  position: relative;
+  position: absolute;
   display: flex;
   flex-direction: column;
   width: fit-content;
-  padding: var(--p-4);
+  padding: var(--p-16);
   border-radius: var(--p-4);
   background: var(--pink);
+  z-index: 1;
+  top: 65px;
 }
 
 .menu__item {
@@ -16,6 +18,7 @@
   list-style-type: none;
   border-radius: var(--p-4);
   overflow: hidden;
+  padding: var(--p-4);
   cursor: pointer;
 }
 
