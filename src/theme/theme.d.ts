@@ -1,4 +1,4 @@
-// default themename modules
+// standard themename modules
 declare module '*.scss' {
     const content: { [className: string]: string };
     export default content;

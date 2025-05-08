@@ -1,0 +1,15 @@
+@use '_variables' as _vars;
+
+.button {
+  display: inline-block;
+  padding: _vars.$p-4 _vars.$p-8;
+  border-radius: _vars.$p-2;
+  cursor: pointer;
+  border: 1px solid _vars.$gray-50;
+
+  &__gray {
+    background: _vars.$gray-50
+  }
+}
+
+// button mixin with border and background color

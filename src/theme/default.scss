@@ -1,4 +1,5 @@
-@use 'default/variables';
+@use '_default/variables';
+@use '_default/components';
 
 .default-theme {
   @extend %vars;

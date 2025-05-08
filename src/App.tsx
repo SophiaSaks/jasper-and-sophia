@@ -22,7 +22,7 @@ function App() {
                     onSelect={setThemeName}
                 />
                 }
-                    <RichTextEditor />
+<RichTextEditor />
                 </>
             </div>
         </div>
