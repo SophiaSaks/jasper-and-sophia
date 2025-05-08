@@ -1,3 +1,4 @@
+import { Dropdown } from '../Dropdown/Dropdown';
 import './Menu.scss';
 import { Theme } from '@/context/theme.config';
 
@@ -11,14 +12,27 @@ export const Menu = ({ items, onSelect }: MenuProps) => (
         <>
             {items?.length > 0
                 ? items.map((item, index) => (
-                      <li
-                          key={index}
-                          className={'menu__item'}
-                          onClick={() => onSelect(item)}>
-                          <span className={'menu__label'}>{item}</span>
-                      </li>
-                  ))
+                    <li
+                        key={index}
+                        className={'menu__item'}
+                        onClick={() => onSelect(item)}>
+                        <span className={'menu__label'}>{item}</span>
+                    </li>
+                ))
                 : null}
+            <li
+                className={'menu__item'}
+                onClick={() => alert('You have clicked a temporary item!')}>
+                <Dropdown
+                    buttonLabel={'Button Label'}
+                    childItems={[
+                        {
+                            buttonLabel: "Button Label 2",
+                            childItems: []
+                        }
+                    ]}
+                />
+            </li>
         </>
     </ul>
 );
